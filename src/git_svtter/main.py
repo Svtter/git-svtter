@@ -3,9 +3,6 @@ import os
 
 app = typer.Typer()
 
-@app.command()
-def hello(name: str):
-    print(f'hello {name}')
 
 @app.command()
 def create_repo(filepath: str, remote_url: str = None, push: bool = False):

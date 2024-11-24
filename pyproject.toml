@@ -13,3 +13,11 @@ license = {text = "MIT"}
 
 [tool.pdm]
 distribution = true
+
+[tool.pdm.scripts]
+create = "python -m git_svtter.main create"
+
+
+[project.scripts]
+git-tools = "git_svtter.main:app"
+
