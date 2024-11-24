@@ -15,7 +15,7 @@ license = {file = "LICENSE"}
 distribution = true
 
 [tool.pdm.scripts]
-create = "python -m git_svtter.main create"
+dev = "python ./src/git_svtter/main.py"
 
 
 [project.scripts]

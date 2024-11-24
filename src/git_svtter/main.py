@@ -33,5 +33,10 @@ def init_repo(filepath: str, remote_url: str = None, push: bool = False):
     if remote_url:
         libs.push_repo(remote_url, 'main', push)
 
+@app.command()
+def search_command(keyword: str):
+    """search command from git-svtter"""
+    print('not implemented')
+
 if __name__ == '__main__':
     app()
