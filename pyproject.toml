@@ -1,7 +1,7 @@
 [project]
 name = "git-svtter"
 version = "0.1.0"
-description = "Default template for PDM package"
+description = "git tools built by svtter"
 authors = [
     {name = "svtter", email = "svtter@qq.com"},
 ]
